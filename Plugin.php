@@ -75,7 +75,7 @@ class CodeCopy_Plugin implements Typecho_Plugin_Interface {
      */
     public static function footer() {
       
-		$path = Helper::options()->pluginUrl . '/codecopy/';
+		$path = Helper::options()->pluginUrl . '/CodeCopy/';
 		echo '<script type="text/javascript" src="' . $path . 'codecopy.js"></script>';
     }
 }
